@@ -6,6 +6,9 @@ int main() {
    temp = a;
    a = b;
    b = temp;
-   cout << "After swapping: a = " << a << ", b = " << b << endl;
+   
+   cout << "After swapping: ;
+   cout<<"a = "<< a <<endl;
+   cout<<"b = "<< b <<endl;
    return 0;
 }
