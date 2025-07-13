@@ -4,30 +4,30 @@ using namespace std;
 
 int main(){
 char op;
-int num1;
-int num2;
+int a;
+int b;
 
 cout<<"enter an op(+,-,*,/):";
 cin>>op;
 
 cout<<"enter two numbers:";
-cin>>num1>>num2;
+cin>>a>>b;
 
 switch (op){
   case '+':
-    cout<<num1<<"+"<<num2<<"="<<num1+num2<<endl;
+    cout<<a<<"+"<<b<<"="<<a+b<<endl;
     break;
 
   case '-':
-     cout<<num1<<"-"<<num2<<"="<<num1-num2<<endl;
+     cout<<a<<"-"<<b<<"="<<a-b<<endl;
      break;
 
   case '*':
-    cout<<num1<<"*"<<num2<<"="<<num1"num2<<endl;
+    cout<<a<<"*"<<b<<"="<<a*b<<endl;
     break;
 
   case '/'
-    cout<<num1<<"/"<<num2<<"="<<num1/num2<<endl;
+    cout<<a<<"/"<<b<<"="<<a/b<<endl;
     break;
 
   default:
