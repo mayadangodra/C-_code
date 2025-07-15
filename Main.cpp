@@ -33,3 +33,7 @@ switch (op){
   default:
     cout<<"invalid value"<<endl;
     break;
+}
+return 0;
+}
+
