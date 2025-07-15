@@ -1,4 +1,4 @@
-#include<iostream>
+include<iostream>
 #include calculator.h"
 using namespace std;
 
@@ -15,25 +15,21 @@ cin>>a>>b;
 
 switch (op){
   case '+':
-    cout<<a<<"+"<<b<<"="<<a+b<<endl;
+    cout<<"add"<<a+b<<endl;
     break;
 
   case '-':
-     cout<<a<<"-"<<b<<"="<<a-b<<endl;
+     cout<<"substract"<<a-b<<endl
      break;
 
   case '*':
-    cout<<a<<"*"<<b<<"="<<a*b<<endl;
+    cout<<"multiply"<<a*b<<endl
     break;
 
   case '/'
-    cout<<a<<"/"<<b<<"="<<a/b<<endl;
+    cout<<"divide"<<a/b<<endl
     break;
 
   default:
     cout<<"invalid value"<<endl;
     break;
-}
-
-return 0;
-}
