@@ -15,19 +15,19 @@ cin>>a>>b;
 
 switch (op){
   case '+':
-    cout<<"add"<<a+b<<endl;
+    cout<<"sum"<<add(a+b)<<endl;
     break;
 
   case '-':
-     cout<<"substract"<<a-b<<endl
+     cout<<"substract"<<subtract(a-b)<<endl
      break;
 
   case '*':
-    cout<<"multiply"<<a*b<<endl
+    cout<<"multiply"<<multiplye(a*b)<<endl
     break;
 
   case '/'
-    cout<<"divide"<<a/b<<endl
+    cout<<"divide"<<divide(a/b)<<endl
     break;
 
   default:
